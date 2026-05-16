@@ -13,11 +13,8 @@ SECRET_KEY = 'django-insecure-dnu8!q7n12e7bog-st+a&5@uk8gk7%0&huxfbzcqjt=!jj-e-r
 DEBUG = True
 
 # ALLOWED HOSTS
-ALLOWED_HOSTS = [
-    "student-management-django-backend-1.onrender.com",
-    "127.0.0.1",
-    "localhost",
-]
+ALLOWED_HOSTS = ["*"]
+
 
 # INSTALLED APPS
 INSTALLED_APPS = [
